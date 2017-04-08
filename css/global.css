@@ -1,0 +1,129 @@
+/** 
+* online-shop 0.0.0 
+* 样式文件
+* By bhz
+*/
+@charset "utf8";
+html,
+body {
+  margin: 0;
+  height: 100%;
+  tap-highlight-color: transparent;
+  -webkit-tap-highlight-color: transparent;
+  /*禁用ios系统显示的高亮颜色*/
+  touch-callout: none;
+  -webkit-touch-callout: none;
+  /*禁用ios系统默认菜单*/
+}
+html {
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+body {
+  font-size: 14px;
+  line-height: 1.6;
+  font-family: "微软雅黑" "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-color: #F5F6F9;
+  color: #333;
+  width: 3.75rem;
+  margin: 0 auto;
+}
+div,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+form,
+fieldset,
+legend,
+input,
+button,
+textarea,
+p {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+  outline: 0;
+  border: 0;
+}
+input[type="text"],
+input[type="password"],
+input[type="search"],
+input[type="tel"],
+input[type="number"],
+input[type="email"],
+input[type="url"],
+input[type="checkbox"],
+textarea,
+select {
+  -webkit-appearance: none;
+}
+input,
+select,
+textarea {
+  border: none;
+  outline: none;
+  background: none;
+}
+ul,
+li {
+  list-style: none;
+}
+a,
+u,
+s,
+i,
+em {
+  text-decoration: none;
+  color: inherit;
+}
+img {
+  border: none;
+  display: block;
+}
+.clearfix:after {
+  content: "";
+  display: block;
+  clear: both;
+  height: 0;
+  visibility: hidden;
+}
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+.green_bg {
+  background-color: #21c78c;
+}
+.gray_bg {
+  background-color: #5d616a;
+}
+.flex {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+}
+.flex_item {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+}
+.flex_vertical {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+}
+.green {
+  color: #21c78c;
+}
