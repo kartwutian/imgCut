@@ -17,6 +17,9 @@
     <div id="show_cut_view">速度点我</div>
     <script>
         function callback(){
+            console.log(window.cutImgData)
+            console.log(window.cutImgData.length)
+            alert(window.cutImgData.length)
 
             var image = document.createElement('img')
             image.src = window.cutImgData

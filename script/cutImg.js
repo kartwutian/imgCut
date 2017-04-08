@@ -193,9 +193,7 @@ function cut(src,fn){
             var base64 = myCanvas.toDataURL("image/jpeg", .5)
 
             if(base64){
-                console.log(base64)
-                console.log(base64.length)
-                alert('裁切成功大小'+base64.length/1000+'Kb')
+
                 window.cutImgData = base64
                 document.querySelector(".cut_wrap").style.display = "none"
                 // 发送ajax
